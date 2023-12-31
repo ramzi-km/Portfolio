@@ -47,12 +47,11 @@ ScrollReveal({
   delay: 200,
 });
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
-ScrollReveal().reveal(
-  '.home-img, .services-container, .portfolio .row, .contact form',
-  { origin: 'bottom' }
-);
+ScrollReveal().reveal('.home-img, .services-container, .row, .contact form', {
+  origin: 'bottom',
+});
 ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
-ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
+ScrollReveal().reveal('.home-content p, .about-content', { origin: 'left' });
 
 // typed js
 

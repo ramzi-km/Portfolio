@@ -14,7 +14,7 @@
   --bg-color: #1f242d;
   --second-bg-color: #323946;
   --text-color: #fff;
-  --main-color: #0ef;
+  --main-color: rgb(255, 106, 0);
 }
 
 html {
@@ -96,6 +96,7 @@ span {
 }
 .home-img img {
   width: 35vw;
+  border-radius: 50%; 
   animation: floatImage 4s ease-in-out infinite;
 }
 
@@ -161,6 +162,7 @@ span {
 
 .about-img img {
   width: 35vw;
+  border-radius: 50%;
 }
 
 .heading {
@@ -269,11 +271,11 @@ span {
   font-size: 25px;
   border-radius: 50%;
   color: var(--text-color);
-  background: #075fe4;
+  background: var(--main-color);
   margin: 0.5rem;
 }
 .row i:hover {
-  color: #075fe4;
+  color: var(--main-color);
   background: var(--bg-color);
 }
 .row h4 {
