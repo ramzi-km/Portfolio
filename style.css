@@ -41,7 +41,7 @@ body {
 }
 
 .header.sticky {
-  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
+  border-bottom: 0.2rem solid rgba(0, 0, 0, 0.2);
 }
 
 .logo {
