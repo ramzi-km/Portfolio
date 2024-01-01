@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="./assets/images/rkm-logos.jpeg" />
+    <title>RKM</title>
     <!-- custom css  -->
     <link rel="stylesheet" href="style.css" />
     <!-- box icons -->
@@ -15,7 +17,7 @@
 
   <body>
     <header class="header">
-      <a href="#" class="logo">Portfolio</a>
+      <a href="#" class="logo">RKM</a>
       <i class="bx bx-menu" id="menu-icon"></i>
       <nav class="navbar">
         <a href="#home" class="active">Home</a>
@@ -135,59 +137,97 @@
       <h2 class="heading">My <span>Portfolio</span></h2>
       <div class="portfolio-container">
         <div class="row">
-          <img src="assets/images/portfolio1.jpg" alt="" />
+          <img src="assets/images/wanderplan.png" />
           <div class="main-row">
-            <div class="row-text"><h5>Website desing</h5></div>
+            <div class="row-text"><h5>Web development</h5></div>
             <div class="row-icon">
-              <a href="" target="_blank"><i class="bx bxl-github"></i> </a>
-              <a href="" target="_blank"><i class="bx bx-link"> </i></a>
+              <a href="https://github.com/ramzi-km/wanderplan" target="_blank"
+                ><i class="bx bxl-github"></i>
+              </a>
+              <a href="https://wander-plan.netlify.app/" target="_blank"
+                ><i class="bx bx-link"> </i
+              ></a>
             </div>
           </div>
-          <h4>Website development for dark x</h4>
+          <h4>Wanderplan - Travel planner application</h4>
         </div>
 
         <div class="row">
-          <img src="assets/images/portfolio1.jpg" alt="" />
+          <img src="assets/images/booknook.png" alt="" />
           <div class="main-row">
-            <div class="row-text"><h5>Website desing</h5></div>
+            <div class="row-text"><h5>Web development</h5></div>
             <div class="row-iconj">
-              <i class="bx bxl-github"></i><i class="bx bx-link"></i>
+              <a href="https://github.com/ramzi-km/BookNook" target="_blank"
+                ><i class="bx bxl-github"></i>
+              </a>
+              <a href="https://booknook.ramzikm.online/" target="_blank"
+                ><i class="bx bx-link"> </i
+              ></a>
             </div>
           </div>
-          <h4>Website development for dark x</h4>
+          <h4>Booknook - E-commerce application</h4>
         </div>
 
         <div class="row">
-          <img src="assets/images/portfolio1.jpg" alt="" />
+          <img src="assets/images/passvault.png" alt="" />
           <div class="main-row">
-            <div class="row-text"><h5>Website desing</h5></div>
+            <div class="row-text"><h5>Web development</h5></div>
             <div class="row-iconj">
-              <i class="bx bxl-github"></i><i class="bx bx-link"></i>
+              <a
+                href="https://github.com/ramzi-km/Password-manager"
+                target="_blank"
+                ><i class="bx bxl-github"></i>
+              </a>
+              <a href="https://passvaultt.netlify.app/" target="_blank"
+                ><i class="bx bx-link"> </i
+              ></a>
             </div>
           </div>
-          <h4>Website development for dark x</h4>
+          <h4>Passvault - Password manager</h4>
         </div>
 
         <div class="row">
-          <img src="assets/images/portfolio1.jpg" alt="" />
+          <img src="assets/images/forecastify.png" alt="" />
           <div class="main-row">
-            <div class="row-text"><h5>Website desing</h5></div>
+            <div class="row-text"><h5>Frontend Development</h5></div>
             <div class="row-iconj">
-              <i class="bx bxl-github"></i><i class="bx bx-link"></i>
+              <a href="https://github.com/ramzi-km/weather-app" target="_blank"
+                ><i class="bx bxl-github"></i>
+              </a>
+              <a href="https://fore-castify.netlify.app/" target="_blank"
+                ><i class="bx bx-link"> </i
+              ></a>
             </div>
           </div>
-          <h4>Website development for dark x</h4>
+          <h4>Weather application</h4>
         </div>
 
         <div class="row">
-          <img src="assets/images/portfolio1.jpg" alt="" />
+          <img src="assets/images/todo.png" alt="" />
           <div class="main-row">
-            <div class="row-text"><h5>Website desing</h5></div>
+            <div class="row-text"><h5>Frontend Development</h5></div>
             <div class="row-iconj">
-              <i class="bx bxl-github"></i><i class="bx bx-link"></i>
+              <a href="https://github.com/ramzi-km/To-do-_list" target="_blank"
+                ><i class="bx bxl-github"></i>
+              </a>
             </div>
           </div>
-          <h4>Website development for dark x</h4>
+          <h4>To-do application</h4>
+        </div>
+
+        <div class="row">
+          <img src="assets/images/netflix.png" alt="" />
+          <div class="main-row">
+            <div class="row-text"><h5>Frontend Development</h5></div>
+            <div class="row-iconj">
+              <a
+                href="https://github.com/ramzi-km/netflix-clone"
+                target="_blank"
+                ><i class="bx bxl-github"></i>
+              </a>
+            </div>
+          </div>
+          <h4>Netflix clone</h4>
         </div>
       </div>
     </section>
@@ -195,26 +235,47 @@
     <!-- contact section design  -->
     <section class="contact" id="contact">
       <h2 class="heading">Contact <span>Me!</span></h2>
-      <form action="#">
+      <form action="https://formspree.io/f/mwkgklgk" method="POST">
         <div class="input-box">
-          <input type="text" placeholder="Full Name" />
-          <input type="email" placeholder="Email Address" />
+          <input
+            name="Name"
+            minlength="3"
+            type="text"
+            placeholder="Full Name"
+            required
+          />
+          <input
+            name="Email"
+            type="email"
+            placeholder="Email Address"
+            required
+          />
         </div>
         <div class="input-box">
           <input
+            name="Mobile"
             type="tel"
             maxlength="10"
             minlength="10"
             placeholder="Mobile Number"
+            required
           />
-          <input type="text" placeholder="Email Subject" />
+          <input
+            minlength="5"
+            name="Subject"
+            type="text"
+            placeholder="Email Subject"
+            required
+          />
         </div>
         <textarea
-          name=""
+          minlength="5"
+          name="Message"
           id=""
           cols="30"
           rows="10"
           placeholder="Your Message"
+          required
         ></textarea>
         <button type="submit" class="btn">Send Message</button>
       </form>
