@@ -157,7 +157,7 @@ span {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  background: var(--second-bg-color);
+  background: var(--bg-color);
 }
 
 .about-img img {
@@ -225,7 +225,7 @@ span {
 }
 
 .portfolio {
-  background: var(--second-bg-color);
+  background: var(--bg-color);
 }
 
 .portfolio-container {
@@ -244,7 +244,7 @@ span {
 }
 
 .row {
-  background: var(--bg-color);
+  background: var(--second-bg-color);
   border-radius: 28px;
   border: 1px solid transparent;
   box-shadow: 0 0 5px var(--main-color);
