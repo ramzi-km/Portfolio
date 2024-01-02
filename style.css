@@ -11,10 +11,10 @@
 }
 
 :root {
-  --bg-color: #0f172a;
+  --bg-color: rgb(15, 23, 42);
   --second-bg-color: #1c293f;
   --text-color: #ffffff;
-  --main-color: #5eead4;
+  --main-color: rgb(94, 234, 212);
 }
 
 html {
@@ -97,6 +97,7 @@ span {
 .home-img img {
   width: 35vw;
   border-radius: 50%;
+  box-shadow: 0rem 4rem 1.5rem -3rem var(--main-color);
   animation: floatImage 4s ease-in-out infinite;
 }
 
@@ -400,10 +401,17 @@ span {
     background: var(--bg-color);
     border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-    display: none;
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    transform: translateY(-50px);
   }
   .navbar.active {
-    display: block;
+    /* display: block; */
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
   }
   .navbar a {
     display: block;
