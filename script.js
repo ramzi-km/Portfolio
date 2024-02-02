@@ -1,3 +1,7 @@
+//latest year
+let currYear = document.getElementById('currYear');
+currYear.innerHTML = new Date().getFullYear();
+
 // toggle icon navbar
 
 let menuIcon = document.querySelector('#menu-icon');

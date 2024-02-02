@@ -342,6 +342,10 @@ span {
   font-size: 1.6rem;
 }
 
+#currYear{
+  color: var(--text-color);
+}
+
 .footer-icon a {
   display: inline-flex;
   justify-content: center;
